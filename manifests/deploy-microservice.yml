@@ -8,7 +8,7 @@ metadata:
     name: experimental-reality-microservice
     namespace: microservices
 spec:
-    replicas: 4
+    replicas: 3
     selector:
         matchLabels:
             run: experimental-reality-microservice
